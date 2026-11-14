@@ -10,7 +10,7 @@
     --body-color: #333;
     --accent1-color: #09816d67;
     --accent2-color: #e992176d;
-    --heading-font: "Arial", "Georgia", serif;
+    --heading-font: Arial, "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -103,16 +103,22 @@ h2 {
 
 footer {
     margin-top: 1.2rem;
+    overflow: hidden;
+}
+
+footer p {
+    display: inline;
+    color: var(--secondary-color)
 }
 
 .socialmedia {
     float: right
 }
 
-.socialmedia img {
-    width: 30px;
-}
-
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
 }
