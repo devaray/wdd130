@@ -9,7 +9,7 @@
     --secondary-color: #09816c;
     --body-color: #333;
     --accent1-color: #09816d67;
-    --accent2-color: #e992176d;
+    --accent2-color: #e6f3fe;
     --heading-font: Arial, Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -35,7 +35,7 @@ article {
 }
 
 header {
-    height: 150px;
+    height: 100px;
 
 }
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 .hero article p {
-    color: #fff;
+    color: #333;
     padding: 0px;
 }
 
