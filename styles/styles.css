@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #1c6eb6;
-    --secondary-color: #6644ec;
+    --secondary-color: #2E1670;
     --body-color: #333;
     --accent1-color: #fec901;
     --accent2-color: #e6f3fe;
@@ -99,6 +99,10 @@ aside h2 {
     color: brown
 }
 
+aside p {
+    margin-top: 1rem;
+}
+
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -110,6 +114,10 @@ aside h2 {
 
 .box a {
     color: #fff
+}
+
+ul li a {
+    text-decoration: none;
 }
 
 footer {
