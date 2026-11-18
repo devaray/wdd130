@@ -2,6 +2,9 @@
 
 This repository provides the starter files, practice activities, and folder structure for **WDD 130: Web Fundamentals**. Use it as the foundation for your coursework as you learn HTML, CSS, Git, GitHub, and GitHub Pages.
 
+## Web Frontend Development Standards
+https://byui-cse.github.io/cse-ww-program/student/dev-standards.html
+
 ## Getting started
 
 1. Create your own copy of this repository using GitHub's **Use this template** button, or follow your instructor's directions for obtaining the repository.
