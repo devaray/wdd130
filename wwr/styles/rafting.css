@@ -157,11 +157,11 @@ footer {
 
 footer p {
     color: var(--secondary-color);
-
+    text-align: center;
 }
 
 .socialmedia {
-    align-items: center;
+    text-align: center;
 }
 
 .socialmedia a {
