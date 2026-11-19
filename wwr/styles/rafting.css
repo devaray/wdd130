@@ -150,7 +150,7 @@ h2 {
 footer {
     margin-top: 1.2rem;
     overflow: hidden;
-    display: flex;
+    display: grid;
     flex-direction: row;
     grid-template-columns: 4fr 1fr;
 }
