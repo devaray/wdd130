@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #1c6eb6;
-    --secondary-color: #09816c;
+    --secondary-color: #045f50;
     --body-color: #333;
     --accent1-color: #09816d67;
     --accent2-color: #e6f3fe;
@@ -22,7 +22,6 @@ body {
 header,
 main,
 footer {
-    width: 840px;
     margin: 0 auto;
 }
 
@@ -35,25 +34,44 @@ article {
 }
 
 header {
-    height: 100px;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
 
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
-    float: left;
+    width: 80px;
 }
 
 header nav {
-    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 
-header nav li {
-    padding: 20px;
-    display: inline;
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    padding: 10px 30px;
+    list-style: none;
+    background-color: #eff0f0;
+    border: 1px solid #b6b6b6
 }
 
 header a {
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 .hero {
@@ -62,7 +80,7 @@ header a {
 
 h1 {
     position: absolute;
-    top: 10px;
+    top: 40px;
     width: 100%;
     padding: 15px;
     background-color: var(--accent1-color);
@@ -71,7 +89,7 @@ h1 {
 }
 
 .hero-img {
-    width: 840px;
+    width: 100%;
 }
 
 .hero article {
@@ -95,24 +113,55 @@ h1 {
 
 h2 {
     font-family: var(--heading-font);
-    background-color: var(--primary-color);
     text-align: center;
-    color: #fff;
-    padding: 5px
+    color: var(--secondary-color);
+    padding: 10px
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.history img {
+    width: 100%;
+}
+
+.adventure-gallery {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.adventure-gallery figure {
+    padding: 0px 0.5rem;
+}
+
+.adventure-gallery img {
+    width: 100%;
+}
+
+.adventure-gallery figcaption {
+    text-align: center;
 }
 
 footer {
     margin-top: 1.2rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 4fr 1fr;
 }
 
 footer p {
-    display: inline;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+
 }
 
 .socialmedia {
-    float: right
+    align-items: center;
 }
 
 .socialmedia a {
