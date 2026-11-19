@@ -34,6 +34,7 @@ article {
 }
 
 header {
+    background-color: #eff0f0;
     display: grid;
     grid-template-columns: 120px 1fr;
     padding: 20px;
@@ -45,6 +46,7 @@ header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 header img {
@@ -60,13 +62,15 @@ header nav {
 header ul {
     display: flex;
     flex-direction: row;
+    gap: 0;
 }
 
 header ul li {
     padding: 10px 30px;
     list-style: none;
-    background-color: #eff0f0;
-    border: 1px solid #b6b6b6
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-left: -1px;
 }
 
 header a {
@@ -148,11 +152,10 @@ h2 {
 }
 
 footer {
-    margin-top: 1.2rem;
-    overflow: hidden;
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 4fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 footer p {
@@ -161,7 +164,8 @@ footer p {
 }
 
 .socialmedia {
-    text-align: center;
+    display: flex;
+    gap: 10px;
 }
 
 .socialmedia a {
