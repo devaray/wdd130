@@ -33,7 +33,7 @@
         <p class="contact-info">info@wildriveradv.com</p>
 
         <div class="form-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2644.673154399147!2d-113.9997618!3d48.481982599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5366226bf2c0ae51%3A0xbac3e4f2199411a9!2sWild%20River%20Adventures!5e0!3m2!1ses!2spy!4v1795815663346!5m2!1ses!2spy" width="300" height="250"  alt="Rafting river" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2644.673154399147!2d-113.9997618!3d48.481982599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5366226bf2c0ae51%3A0xbac3e4f2199411a9!2sWild%20River%20Adventures!5e0!3m2!1ses!2spy!4v1795815663346!5m2!1ses!2spy" width="300" height="250"   allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
             <form>
                 <fieldset>
@@ -46,14 +46,23 @@
                         <input type="email" id="useremail" name="useremail" placeholder="mail@youremail.com">
                     </div>
                 </fieldset>
-                <fieldset>
-                    <div class="form-item label-narrow">
-                        <label for="purpose">Message<br/>Purpose</label>
-                        <div class="purposes">
-                            <label><input type="radio" name="contact" value="email"> General Inquiry</label>
-                            <label><input type="radio" name="contact" value="phone"> Reservation Question</label>
-                            <label><input type="radio" name="contact" value="phone"> Website Suggestion</label>
-                        </div>
+                <fieldset class="form-item label-narrow message-purpose">
+                    <legend>Message<br>Purpose</legend>
+                    <div class="purposes">
+                        <label>
+                        <input type="radio" name="purpose" value="general">
+                        General Inquiry
+                        </label>
+
+                        <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                        </label>
+
+                        <label>
+                        <input type="radio" name="purpose" value="suggestion">
+                        Website Suggestion
+                        </label>
                     </div>
                 </fieldset>
                 <fieldset>
