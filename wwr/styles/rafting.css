@@ -85,7 +85,7 @@ header a {
 .hero {
     position: relative;
 }
-.hero h1 {
+.title {
     position: absolute;
     top: 40px;
     width: 100%;

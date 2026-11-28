@@ -1,6 +1,6 @@
 
 /* Contact page */
-h1 {
+#about-title {
     color: #333;
     font-weight: 600;
     margin: 15px 0px;
@@ -58,13 +58,12 @@ input[type="checkbox"] {
 button[type="submit"]{
     margin-top: 10px;
     width: 100%;
-    border-radius: 10px;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: 0.7rem .75rem;
-    font-size: 1.1 rem;
+    font-size: 1.1rem;
     cursor: pointer;
     margin: auto;
 }
