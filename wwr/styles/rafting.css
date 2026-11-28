@@ -85,15 +85,16 @@ header a {
 .hero {
     position: relative;
 }
-
-h1 {
+.hero h1 {
     position: absolute;
     top: 40px;
     width: 100%;
     padding: 15px;
     background-color: var(--accent1-color);
-    text-align: center;
     color: #fff;
+}
+h1 {
+    text-align: center;
 }
 
 .hero-img {

@@ -1,0 +1,123 @@
+
+/* Contact page */
+h1 {
+    color: #333;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+}
+
+.form-container fieldset {
+    border: 0;
+}
+
+form {
+    margin:auto;
+    width: 80%;
+}
+
+fieldset {
+    display: grid;
+    gap: .5rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+.label-narrow {
+    grid-template-columns: 1fr 3fr;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button[type="submit"]{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 0.7rem .75rem;
+    font-size: 1.1 rem;
+    cursor: pointer;
+    margin: auto;
+}
+
+.purposes {
+    flex-direction: column;
+    display: flex;
+}
+.purposes label {
+    margin-bottom: 10px;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 10px;
+    font-weight: 500;
+}
+
+.our-team-container {
+    background-color: #e6f3fe;
+    margin: 16px 0px;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.our-team figure {
+    padding: 0px 0.5rem;
+    position: relative
+}
+
+
+
+.our-team .background-team {
+    width: 200px;
+}
+
+.our-team figcaption {
+    text-align: center;
+}
+
+
+.team-picture {
+    width: 110px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
